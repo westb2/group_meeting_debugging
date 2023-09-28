@@ -10,7 +10,7 @@ def generate_random_dealership_fee():
 
 def calculate_car_price():
     TAX_RATE = 1.1
-    with open("secret_car_stuff.json") as file:
+    with open("DO_NOT_OPEN_secret_car_stuff.json") as file:
         config = json.load(file)
         base_price = config["base_price"]
         after_market_products_price = config["after_market_products_price"]
